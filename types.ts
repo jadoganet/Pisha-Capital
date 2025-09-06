@@ -8,6 +8,7 @@ export interface Brand {
   projection: string;
   revenue: number; // in millions
   icon: JSX.Element;
+  videoUrl: string;
 }
 
 export interface MarketPoint {
